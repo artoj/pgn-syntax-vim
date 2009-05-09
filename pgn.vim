@@ -25,7 +25,7 @@ syn region pgnComment start=/{/ end=/}/
 syn region pgnString start=/"/ skip=/\\\\\|\\"/ end=/"/ contained oneline
 
 " Tags
-syn region pgnTag start=/\[/ end=/\]/ contains=pgnString oneline
+syn region pgnTag start=/^\s*\[/ end=/\]\s*$/ contains=pgnString oneline
 
 " Move number
 syn match pgnMoveNumber "[1-9][0-9]*\."
