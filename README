@@ -14,6 +14,10 @@ ABOUT
     features such as support for comments and special characters in string
     values.
 
+    PGN specification:
+
+        http://www.very-best.de/pgn-spec.htm
+
 INSTALLATION
 
     Put the 'pgn.vim' file to your $VIMRUNTIME/syntax/ directory. Then you can

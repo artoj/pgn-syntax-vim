@@ -3,6 +3,8 @@
 " Maintainer:   Arto Jonsson <ajonsson@kapsi.fi>
 "
 " Based on the work of Charles Ford <cford@eudoramail.com>
+"
+" PGN specification: http://www.very-best.de/pgn-spec.htm
 
 if version < 600
 	syn clear
