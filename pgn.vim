@@ -12,10 +12,6 @@ elseif exists("b:current_syntax")
 	finish
 endif
 
-if !exists("main_syntax")
-	let main_syntax = "pgn"
-endif
-
 syn case ignore
 
 " Comment
@@ -42,7 +38,3 @@ hi def link pgnMoveNumber Number
 hi def link pgnResult Type
 
 let b:current_syntax = "pgn"
-
-if main_syntax == "pgn"
-	unlet main_syntax
-endif
