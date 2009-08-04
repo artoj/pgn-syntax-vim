@@ -1,8 +1,10 @@
 " Vim syntax file
 " Language:     Portable Game Notation (PGN)
 " Maintainer:   Arto Jonsson <ajonsson@kapsi.fi>
+" http://gitorious.org/pgn-syntax-for-vim
 "
 " Based on the work of Charles Ford <cford@eudoramail.com>
+" http://www.vim.org/scripts/script.php?script_id=677
 "
 " PGN specification: http://www.very-best.de/pgn-spec.htm
 
