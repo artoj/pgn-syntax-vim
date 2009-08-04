@@ -28,7 +28,7 @@ syn region pgnString start=/"/ skip=/\\\\\|\\"/ end=/"/ contained oneline
 syn region pgnTag start=/^\s*\[/ end=/\]\s*$/ contains=pgnString oneline
 
 " Move number
-syn match pgnMoveNumber "[1-9][0-9]*\."
+syn match pgnMoveNumber "[1-9][0-9]*\.\(\.\.\)\="
 
 " Game result
 syn match pgnResult "\*\|0-1\|1-0\|1\/2-1\/2"
