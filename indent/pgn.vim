@@ -30,10 +30,8 @@ function! GetPGNIndent(line_num)
     endif
 
     let prevl = getline(a:line_num - 1)
-
     let ind = indent(a:line_num -1)
 
-    echo indent(a:line_num - 1)
     if line =~ '^\s*('
         " New variation
         if prevl =~ '.*)$'
