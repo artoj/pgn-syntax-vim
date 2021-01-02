@@ -33,3 +33,9 @@ INSTALLATION
     See ':help ftdetect' for more information.
 
     Alternatively you can use bundle manager such as Vundle or Pathogen.
+
+VUNDLE INSTALLATION
+
+    Add Bundle 'artoj/pgn-syntax-vim' (or currently the fork
+    'mvy/pgn-syntax-vim') to your vundle confiruation.
+    Run :BundleInstall
