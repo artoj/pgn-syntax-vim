@@ -19,13 +19,13 @@ syn case ignore
 " Comment
 syn match pgnComment "^\s*%.*"
 syn match pgnComment ";.*"
-syn region pgnComment start=/{/ end=/}/
+syn region pgnComment start=/{/ end=/}/ contains=@Spell
 
 " Strings
-syn region pgnString start=/"/ skip=/\\\\\|\\"/ end=/"/ contained oneline
+syn region pgnString start=/"/ skip=/\\\\\|\\"/ end=/"/ contained oneline contains=@Spell
 
 " Tags
-syn region pgnTag start=/^\s*\[/ end=/\]\s*$/ contains=pgnString oneline
+syn region pgnTag start=/^\s*\[/ end=/\]\s*$/ contains=pgnString oneline contains=@NoSpell
 
 " Move number
 syn match pgnMoveNumber "[1-9][0-9]*\.\(\.\.\)\="
