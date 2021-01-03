@@ -23,11 +23,11 @@ The PGN format specification can be found
 ## Installation
 
 ### Vim 8 Native Package Management
-- Create a subfolder in `$VIMRUNTIME/pack/`, this directory may be called
+- Create a subfolder in `~/.vim/pack/`, this directory may be called
   anything and is a quirk of how Vim8 does package management.
 - Within your new directory, create a `start` subdirectory, so that you now have
-  a new path: `$VIMRUNTIME/pack/<FOO>/start`
-- Within start, clone this repository:
+  a new path: `~/.vim/pack/<FOO>/start`
+- Within `start`, clone this repository:
   ```sh
   git clone https://github.com/yuri-norwood/pgn-syntax-vim
   ```
@@ -43,6 +43,9 @@ The PGN format specification can be found
 - Run `:BundleInstall`
 
 ### Pathogen
+- Clone or add `pgn-syntax-vim` as a submodule to `~/.vim/bundle/pgn-syntax-vim`
+  (See steps under Vim 8 native installation above)
+- Add `execute pathogen#infect()` to your `~/.vimrc`.
 
 ### Manual
 - Put [syntax/pgn.vim](syntax/pgn.vim) in your `$VIMRUNTIME/syntax/`
