@@ -59,11 +59,11 @@ case:
 See `:help ftdetect` for more information.
 
 ## Copy Rights
-©2003      [Charles Ford](https://vim.org/profile.php?user_id=2607)
-©2009-2012 [Arto Josson](https://github.com/artoj)
-©2009      [Israel Chauaca Fuentes](https://github.com/Raimondi)
-©2012      [Yves Stadler](https://github.com/mvy)
-©2021      [Yuri Norwood](https://github.com/yuri-norwood)
+- ©2003      [Charles Ford](https://vim.org/profile.php?user_id=2607)
+- ©2009-2012 [Arto Josson](https://github.com/artoj)
+- ©2009      [Israel Chauaca Fuentes](https://github.com/Raimondi)
+- ©2012      [Yves Stadler](https://github.com/mvy)
+- ©2021      [Yuri Norwood](https://github.com/yuri-norwood)
 
 ## Licensing
 This plugin has a long history, unfortunately, no concrete licensing terms have
