@@ -19,6 +19,11 @@ values.
 The PGN format specification can be found
 [here](http://www.saremba.de/chessgml/standards/pgn/pgn-complete.htm).
 
+## Screenshots
+Below screenshot shows `pgn-syntax-vim` in action, editing a file of the games
+of Gary Kasparov. The colorscheme is [challenger deep](https://github.com/challenger-deep-theme/vim).
+
+[![Kasparov](Kasparov.png)](Kasparov.png)
 
 ## Installation
 
